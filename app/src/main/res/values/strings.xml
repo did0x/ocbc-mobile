@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">OCBC Mobile</string>
+    <string name="action_login">Masuk</string>
+    <string name="action_send_now">Kirim Sekarang</string>
+    <string name="action_register">Register</string>
+    <string name="action_transfer">Kirim Sekarang</string>
+    <string name="action_tambah">Tambah</string>
+    <string name="action_cancel">Batalkan</string>
+
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_password_confirm">Confirm Password</string>
+    <string name="hint_amount">Jumlah</string>
+
+    <string name="label_dont_have_account">Belum punya akun?</string>
+    <string name="label_have_account">Sudah punya akun?</string>
+    <string name="label_register_now">Daftar sekarang</string>
+
+    <string name="message_welcome">Selamat Datang,</string>
+    <string name="message_title_no_transaction">Tidak ada transaksi</string>
+    <string name="message_content_no_transaction">Kamu tidak memiliki transaksi saat ini.</string>
+    <string name="message_fingerprint_failed">Gagal mengautentikasi sidik jari</string>
+    <string name="message_no_fingerprint">Tidak ada fingerprint yang terdaftar</string>
+    <string name="message_login_with_fingerprint">Masuk Dengan Fingerprint</string>
+    <string name="message_fingerprint_guide">Tempelkan sidik jari pada sensor</string>
+
+    <string name="label_my_wallet">Dompetku</string>
+    <string name="label_send_again">Kirim Lagi</string>
+    <string name="label_history_today">Riwayat Hari Ini</string>
+    <string name="label_see_all">Lihat Semua</string>
+    <string name="label_balance">Saldo</string>
+    <string name="label_enter_amount">Masukkan Jumlah</string>
+    <string name="label_choose_payess">Pilih Penerima</string>
+    <string name="label_transfer">Transfer</string>
+
+    <string name="placeholder_account_no">****-***-****</string>
+    <string name="placeholder_balance">SGD ***,***.**</string>
+    <string name="placeholder_profile">!</string>
+
+    <string name="error_fingerprint_login_failed">Silahkan masuk terlebih dahulu</string>
+    <string name="error_password_minimum">Password harus terdiri dari minimal 6 karakter</string>
+    <string name="error_password_not_match">Password tidak sesuai</string>
+    <string name="error_qr_not_match">QR Code mungkin salah, data tidak ditemukan</string>
+    <string name="error_qr_data_not_match">Data tidak sesuai</string>
+    <string name="error_amount_must_filled">Jumlah tidak boleh kosong</string>
+</resources>

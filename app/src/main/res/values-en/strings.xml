@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">OCBC Mobile</string>
+    <string name="action_login">Login</string>
+    <string name="action_send_now">Send Now</string>
+    <string name="action_register">Register</string>
+    <string name="action_transfer">Transfer Now</string>
+    <string name="action_tambah">Add</string>
+    <string name="action_cancel">Cancel</string>
+
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_password_confirm">Confirm Password</string>
+    <string name="hint_amount">Amount</string>
+
+    <string name="label_dont_have_account">Don\'t have an account?</string>
+    <string name="label_have_account">Already have an account?</string>
+    <string name="label_register_now">Register Now</string>
+
+    <string name="message_welcome">Welcome,</string>
+    <string name="message_title_no_transaction">No transaction found</string>
+    <string name="message_content_no_transaction">You have no transactions at this moment.</string>
+    <string name="message_fingerprint_failed">Failed to authenticate fingerprint</string>
+    <string name="message_no_fingerprint">No fingerprint registered</string>
+    <string name="message_login_with_fingerprint">Login with Fingerprint</string>
+    <string name="message_fingerprint_guide">Put the fingerprint on the sensor</string>
+
+    <string name="label_my_wallet">My Wallet</string>
+    <string name="label_send_again">Send Again</string>
+    <string name="label_history_today">History Today</string>
+    <string name="label_see_all">See All</string>
+    <string name="label_balance">Balance</string>
+    <string name="label_enter_amount">Enter Amount</string>
+    <string name="label_choose_payess">Choose Payess</string>
+    <string name="label_transfer">Transfer</string>
+
+    <string name="placeholder_account_no">****-***-****</string>
+    <string name="placeholder_balance">SGD ***,***.**</string>
+    <string name="placeholder_profile">!</string>
+
+    <string name="error_fingerprint_login_failed">Please login first</string>
+    <string name="error_password_minimum">Password must consist of at least 6 characters</string>
+    <string name="error_password_not_match">Password does not match</string>
+    <string name="error_qr_not_match">QR code maybe wrong, data not found</string>
+    <string name="error_qr_data_not_match">Data does not match</string>
+    <string name="error_amount_must_filled">Amount must be filled</string>
+</resources>

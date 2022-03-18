@@ -1,0 +1,4 @@
+rootProject.name = "OCBC Mobile"
+include ':app'
+include ':common'
+include ':data'

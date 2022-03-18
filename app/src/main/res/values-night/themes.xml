@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.OCBC" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red_500</item>
+        <item name="colorPrimaryVariant">@color/red_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black_500</item>
+        <item name="colorSecondaryVariant">@color/black_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
+        <!-- Customize your theme here. -->
+        <item name="android:colorBackground">@color/black</item>
+        <item name="colorCardBackground">@color/black_700</item>
+        <item name="colorTextTitle">@color/white</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.BottomSheetDialog.Core</item>
+    </style>
+</resources>

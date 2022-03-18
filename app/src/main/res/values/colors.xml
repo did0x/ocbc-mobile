@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red_700">#FFEA2F2A</color>
+    <color name="red_500">#FFF14545</color>
+    <color name="red_200">#FFE84143</color>
+    <color name="black">#FF13131A</color>
+    <color name="black_700">#1C1C24</color>
+    <color name="black_500">#FF313131</color>
+    <color name="black_200">#262837</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white700">#FFF7F7F7</color>
+    <color name="white500">#FFF3F4FB</color>
+    <color name="gray">#FFF2F2F2</color>
+    <color name="gray_500">#B5B5B5</color>
+    <color name="green_500">#00AB6B</color>
+    <color name="green_700">#00613D</color>
+
+    <color name="ic_launcher_background">#EA2F2A</color>
+</resources>
