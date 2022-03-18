@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_8sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/contentHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:constraint_referenced_ids="tvToday, tvTotal"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvToday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="25 Maret 2022"
+        android:layout_margin="@dimen/_8sdp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline2.Core"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        tools:text="SGD 1,00.50"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline2.Core"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/contentBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:constraint_referenced_ids="tvProfile, tvName, tvTime, tvType, tvAmount"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvProfile"
+        android:layout_width="@dimen/_38sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2.Core"
+        android:text="@string/placeholder_profile"
+        android:textSize="@dimen/_22ssp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@drawable/bg_primary_fill"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvToday"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@tools:sample/first_names"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        app:layout_constraintTop_toTopOf="@id/tvProfile"
+        app:layout_constraintStart_toEndOf="@id/tvProfile"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline2.Core"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Transfer"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        app:layout_constraintTop_toBottomOf="@id/tvName"
+        app:layout_constraintStart_toEndOf="@id/tvProfile"
+        android:textSize="@dimen/_9sdp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="+ $300,29"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        app:layout_constraintTop_toTopOf="@id/tvProfile"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline2.Core"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="10:24"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        app:layout_constraintTop_toBottomOf="@id/tvAmount"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="@dimen/_9sdp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

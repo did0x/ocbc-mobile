@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:state_focused="true">
+        <shape>
+            <solid android:color="?android:attr/colorBackground"/>
+            <!--<stroke
+                android:width="1dp"
+                android:color="@color/color_primary"/>-->
+            <corners
+                android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <item android:state_pressed="true" android:state_focused="false">
+        <shape>
+            <solid android:color="?android:attr/colorBackground"/>
+            <!--<stroke
+                android:width="1dp"
+                android:color="@color/color_primary"/>-->
+            <corners
+                android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <item android:state_pressed="false" android:state_focused="true">
+        <shape>
+            <solid android:color="?android:attr/colorBackground"/>
+            <!--<stroke
+                android:width="1dp"
+                android:color="@color/color_primary"/>-->
+            <corners
+                android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <item android:state_pressed="false" android:state_focused="false">
+        <shape>
+            <solid android:color="?android:attr/colorBackground"/>
+<!--            <stroke-->
+<!--                android:width="1dp"-->
+<!--                android:color="#D1D1D1"/>-->
+            <corners
+                android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <item android:state_enabled="true">
+        <shape>
+            <solid android:color="?android:attr/colorBackground"/>
+        </shape>
+    </item>
+</selector>
